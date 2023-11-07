@@ -1,0 +1,28 @@
+{
+  "data": [
+     {
+       "title": "Handphone",
+       "image": "handphone.jpg"
+     },
+     {
+       "title": "Tas",
+       "image": "bag.jpg"
+     },
+     {
+       "title": "Celana",
+       "image": "pants.jpg"
+     },
+     {
+       "title": "Sepatu",
+       "image": "shoes.jpg"
+     },
+     {
+       "title": "Baju",
+       "image": "clotes.jpg"
+     },
+     {
+       "title": "Headset",
+       "image": "headphone.jpg"
+     }
+    ]
+}

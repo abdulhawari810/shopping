@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | shoppingAJA</title>
+    <link rel="stylesheet" href="css/output.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/splide-default.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/splide.min.css" type="text/css" media="all" />
+  </head>
+  <body class="py-16">
+    
+    <!-- navbar top -->
+    <section class="flex items-center fixed left-0 top-0 z-50 bg-sky-600 w-full h-16 p-3 justify-between">
+      <a href="home.html" class="items-center flex w-auto h-auto text-lg font-bold text-white">
+        E-commerce
+      </a>
+      <a href="#" class="w-10 h-10 flex items-center justify-center relative">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white text-xl">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+</svg>
+        <span class="dots p-1 w-4 h-4 text-xs rounded-lg bg-white flex items-center justify-center absolute right-0 top-0 text-sky-600">10</span>
+      </a>
+    </section>
+    
+    <!-- navbar bottom -->
+    <section class="flex items-center bg-sky-600 p-3 w-full h-16 fixed bottom-0 left-0 z-50 justify-around">
+      <a href="/" class="nav-items flex justify-center items-center flex-col w-30 h-30 text-slate-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+</svg>
+
+        <span class="text-sm">Home</span>
+      </a>
+      <a href="product.html" class="nav-items flex justify-center items-center flex-col w-30 h-30 text-slate-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+</svg>
+
+
+        <span class="text-sm">Product</span>
+      </a>
+      <a href="account.html" class="nav-items flex justify-center items-center flex-col w-30 h-30 text-slate-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+
+
+        <span class="text-sm">Account</span>
+      </a>
+    </section>
+    
+    <!-- carousel -->
+    <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="assets/carousel/carousel.png" alt="">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/carousel/carousel.png" alt="">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/carousel/carousel.png" alt="">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/carousel/carousel.png" alt="">
+      </li>
+    </ul>
+  </div>
+</section>
+    
+    <!-- menu  -->
+    <span class="text-black text-lg font-bold w-full h-10 mt-5 mb-3 p-2 flex items-center">All Menu</span>
+    <section class="w-full h-auto p-2 flex justify-between flex-wrap" id="menu"></section>
+    
+    <!-- card slider  -->
+    <section class="flex justify-between items-center w-full h-10 mt-5 mb-3 p-2">
+      <h3 class="font-bold text-lg text-black">
+        Produk Terbaru
+      </h3>
+      <a class="flex items-center justify-center font-light text-slate-500" href="#">Seemore <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+</svg></a>
+    </section>
+    <section class="flex justify-between items-start flex-nowrap overflow-scroll w-full h-auto p-2 gap-5 snap-x" id="card-slider">
+    </section>
+    <!-- card -->
+    <section class="flex justify-between items-center w-full h-10 mt-5 mb-3 p-2">
+      <h3 class="font-bold text-lg text-black">
+        Best Sellers
+      </h3>
+      <a class="flex items-center justify-center font-light text-slate-500" href="#">Seemore <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+</svg>
+</a>
+    </section>
+    <section class="flex justify-between flex-wrap items-start p-2 w-full h-auto" id="card"></section>
+    
+    <!-- footer -->
+    <section class="p-3 flex flex-col w-full h-auto bg-sky-700 mt-5">
+      <section class="flex p-1 mt-4 w-full h-auto flex-col">
+        <h3 class="text-white font-bold text-lg">
+          TENTANG KAMI
+        </h3>
+        <p class="text-white text-sm font-light">
+          nisi ullamco ea consectetur sit aliqua quis dolor consequat cillum commodo mollit aliqua consectetur proident mollit esse esse proident ipsum
+        </p>
+      </section>
+      <section class="flex items-center p-1 w-full h-auto mt-5">
+        <h3 class="text-lg font-bold text-white">
+          INFORMASI
+        </h3>
+      </section>
+      <section class="w-full h-auto p-2 flex flex-col">
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Home
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Privacy Policy
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          FAQ
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Store Location
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5">
+          Terms And Conditions
+        </a>
+      </section>
+      <section class="flex items-center p-1 w-full h-auto mt-5">
+        <h3 class="text-lg font-bold text-white">
+          ORDERS
+        </h3>
+      </section>
+      <section class="w-full h-auto p-2 flex flex-col">
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          How To Order
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Shipping
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Returns
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5">
+          Size Chart
+        </a>
+      </section>
+      <section class="flex items-center p-1 w-full h-auto mt-5">
+        <h3 class="text-lg font-bold text-white">
+          CONTACT US
+        </h3>
+      </section>
+      <section class="flex items-center p-2 w-full h-5 text-white mt-3">
+        ONLINE SERVICES
+      </section>
+      <section class="flex p-2 flex-col w-full h-auto">
+        <span class="flex items-center text-white text-sm font-light">
+          Monday - Sunday
+        </span>
+        <span class="flex items-center text-white text-sm font-light">
+          08.00 - 17.00 (Exc Public Holiday)
+        </span>
+      </section>
+      <section class="flex items-center p-2 w-full h-5 text-white mt-3">
+        CUSTOMER SERVICES
+      </section>
+      <section class="flex p-2 flex-col w-full h-auto">
+        <span class="flex items-center text-white text-sm font-light">
+          Email: e-commerce@gmail.com
+        </span>
+        <span class="flex items-center text-white text-sm font-light">
+          Whatsapp: 083-899-513-983
+        </span>
+        <span class="flex items-center text-white text-sm font-light">
+         Instagram: @ecommerce
+        </span>
+      </section>
+      <section class="flex items-center p-2 w-full h-5 text-white mt-3">
+        WHO SALE
+      </section>
+      <section class="flex p-2 flex-col w-full h-auto">
+        <span class="flex items-center text-white text-sm font-light">
+          Call/Whatsapp: 083-151-154-260
+        </span>
+      </section>
+      <section class="flex justify-center items-center text-center mt-20 w-full h-auto">
+        <span class="text-white text-xs font-light">
+          @ 2023 Copyright E-commerce | Official Website
+        </span>
+      </section>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/splide.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      $.getJSON('data/menu.json', function(data){
+   let m = data.data;
+   $.each(m, function(i,data){
+     $('#menu').append(`
+      <a href="#" class="flex justify-center items-center w-24 h-24 flex-col shadow rounded-lg p-2">
+        <img class="w-14 h-14 object-cover rounded-full" src="assets/menu/`+ data.image +`" alt="" />
+        <span class="text-black text-sm">`+ data.title +`</span>
+      </a>`);
+        });
+});
+      $.getJSON('data/produk.json', function(data){
+        let menu = data.produk;
+        $.each(menu, function(i,data){
+            const harga = data.harga_produk;
+            const diskon = data.diskon_produk;
+            let total = harga - harga * diskon / 100;
+            if(diskon === 0){
+              total = "hidden";
+            }
+          $('#card-slider').append(`
+      <section class="w-36 h-auto rounded-lg shadow-lg flex flex-col relative overflow-hidden flex-none snap-center">
+        <img class="object-cover w-full h-36 rounded-s-lg" src="${data.gambar_produk}" alt="" />
+        <span class="absolute w-20 h-8 p-2 bg-red-600 flex justify-center items-center text-white text-sm top-0 left-0 text-center ${(total === "hidden") ? "hidden" : ""}">
+          -${data.diskon_produk} OFF
+        </span>
+        <section class="p-3 w-full h-auto flex flex-col">
+          <span class="text-sm text-slate-500 font-light">
+            ${data.kategori_produk}
+          </span>
+          <h3 class="text-lg font-bold">
+            ${data.nama_produk}
+          </h3>
+          <section class="flex-wrap flex items-center">
+            <span class="text-lg ${(total === "hidden") ? "font-bold" : "font-light"} ${(total === "hidden") ? "text-black" : "text-red-600"} ${(total === "hidden") ? "" : "line-through"}">
+              Rp ${data.harga_produk.toLocaleString('en-US')}-,
+            </span>
+            <span class="text-lg text-black font-bold ${(total === "hidden") ? "hidden" : ""}">
+              Rp ${total.toLocaleString('en-US')},-
+            </span>
+          </section>
+        </section>
+      </section>`);
+        });
+      });
+      $.getJSON('data/produk.json', function(data){
+        let menu = data.produk;
+        $.each(menu, function(i,data){
+            const harga = data.harga_produk;
+            const diskon = data.diskon_produk;
+            let total = harga - harga * diskon / 100;
+            if(diskon === 0){
+              total = "hidden";
+            }
+          $('#card').append(`
+      <section class="flex flex-col rounded-lg shadow relative mt-5 w-36 h-auto overflow-hidden">
+        <span class="absolute w-20 h-8 p-2 bg-red-600 flex justify-center items-center text-white text-sm top-0 left-0 text-center ${(total === "hidden") ? "hidden": ""}">
+          -${diskon} OFF
+        </span>
+        <img class="object-cover w-full h-36 rounded-s-lg" src="${data.gambar_produk}" alt="" />
+        <section class="flex flex-col w-full h-auto p-3">
+          <span class="text-lg font-light text-slate-500">
+            ${data.kategori_produk}
+          </span>
+          <h3 class="text-black font-bold text-lg">${data.nama_produk}</h3>
+          <section class="flex-wrap flex w-full h-auto">
+            <span class="text-lg ${(total === "hidden") ? "font-bold" : "font-light"} ${(total === "hidden") ? "text-black" : "text-red-600"} ${(total === "hidden") ? "" : "line-through"}">Rp ${harga.toLocaleString('en-US')},-</span>
+            <span class="text-lg font-bold text-black ${(total === "hidden" ? total : "")}">
+              Rp ${total.toLocaleString('en-US')},-
+            </span>
+          </section>
+        </section>
+      </section>`);
+        });
+      });
+    </script>
+    <script>
+      new Splide('#image-carousel').mount();
+    </script>
+    <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>

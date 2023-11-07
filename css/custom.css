@@ -1,0 +1,14 @@
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+*{
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color:transparent;
+}
+::-webkit-scrollbar{
+  display: none!important;
+}
+.nav-items.actived{
+  color: white;
+}
