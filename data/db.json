@@ -1,4 +1,30 @@
 {
+  "menu": [
+     {
+       "title": "Handphone",
+       "image": "handphone.jpg"
+     },
+     {
+       "title": "Tas",
+       "image": "bag.jpg"
+     },
+     {
+       "title": "Celana",
+       "image": "pants.jpg"
+     },
+     {
+       "title": "Sepatu",
+       "image": "shoes.jpg"
+     },
+     {
+       "title": "Baju",
+       "image": "clotes.jpg"
+     },
+     {
+       "title": "Headset",
+       "image": "headphone.jpg"
+     }
+    ],
   "produk": [
      {
       "nama_produk": "BG ROUDE 105",
@@ -60,7 +86,7 @@
        "nama_produk": "ST HOKITA",
        "harga_produk": 289000,
        "diskon_produk": 40,
-       "kategori_produk": "Pants",
+       "kategori_produk": "Celana",
        "deskripsi_produk": "<p>Kadang kita ingin rehat sejenak untuk menikmati jalan di sekitar kota atau sekedar merefresh mata. Untuk itu, kamu perlu mencoba koleksi kita yang satu ini. Celana yang dibuat khusus untuk menemani kegiatan santai dengan konsep yang keren sehingga mudah untuk dipadukan dengan outfit lainnya, membuat kamu terlihat lebih fresh dan fashionable. Dapatkan sekarang juga! Gunakan voucher atau kode promo untuk mendapatkan penawaran terbaik. Awas kehabisan karena stock terbatas. Dapatkan garansi apabila produk:</p><ul><li>Rusak Atau Cacat</li><li>Tidak sesuai dengan foto produk</li></ul><p>Material : cotton <strong>Bloods</strong> merupakan brand clothing yang berdiri sejak tahun 2002, saat ini kami memiliki 60 offline store yang tersebar di seluruh Indonesia.</p>",
        "warna_produk": "Hitam",
        "stok_produk": 200,
@@ -75,7 +101,7 @@
        "nama_produk": "ST HOKITA",
        "harga_produk": 289000,
        "diskon_produk": 40,
-       "kategori_produk": "Pants",
+       "kategori_produk": "Celana",
        "deskripsi_produk": "<p>Kadang kita ingin rehat sejenak untuk menikmati jalan di sekitar kota atau sekedar merefresh mata. Untuk itu, kamu perlu mencoba koleksi kita yang satu ini. Celana yang dibuat khusus untuk menemani kegiatan santai dengan konsep yang keren sehingga mudah untuk dipadukan dengan outfit lainnya, membuat kamu terlihat lebih fresh dan fashionable. Dapatkan sekarang juga! Gunakan voucher atau kode promo untuk mendapatkan penawaran terbaik. Awas kehabisan karena stock terbatas. Dapatkan garansi apabila produk:</p><ul><li>Rusak Atau Cacat</li><li>Tidak sesuai dengan foto produk</li></ul><p>Material : cotton <strong>Bloods</strong> merupakan brand clothing yang berdiri sejak tahun 2002, saat ini kami memiliki 60 offline store yang tersebar di seluruh Indonesia.</p>",
        "warna_produk": "Hitam",
        "stok_produk": 200,
@@ -90,7 +116,7 @@
        "nama_produk": "ST HOKITA",
        "harga_produk": 289000,
        "diskon_produk": 40,
-       "kategori_produk": "Pants",
+       "kategori_produk": "Celana",
        "deskripsi_produk": "<p>Kadang kita ingin rehat sejenak untuk menikmati jalan di sekitar kota atau sekedar merefresh mata. Untuk itu, kamu perlu mencoba koleksi kita yang satu ini. Celana yang dibuat khusus untuk menemani kegiatan santai dengan konsep yang keren sehingga mudah untuk dipadukan dengan outfit lainnya, membuat kamu terlihat lebih fresh dan fashionable. Dapatkan sekarang juga! Gunakan voucher atau kode promo untuk mendapatkan penawaran terbaik. Awas kehabisan karena stock terbatas. Dapatkan garansi apabila produk:</p><ul><li>Rusak Atau Cacat</li><li>Tidak sesuai dengan foto produk</li></ul><p>Material : cotton <strong>Bloods</strong> merupakan brand clothing yang berdiri sejak tahun 2002, saat ini kami memiliki 60 offline store yang tersebar di seluruh Indonesia.</p>",
        "warna_produk": "Hitam",
        "stok_produk": 200,

@@ -5,10 +5,18 @@
 *{
   scroll-behavior: smooth;
   -webkit-tap-highlight-color:transparent;
+  border: none;
+  outline: none;
 }
 ::-webkit-scrollbar{
   display: none!important;
 }
 .nav-items.actived{
   color: white;
+}
+.menu-filter.actived{
+  display: flex;
+}
+.nav-link.actived{
+  color: rgb(2 132 199);
 }

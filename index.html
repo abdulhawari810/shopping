@@ -99,7 +99,7 @@
     <section class="flex justify-between flex-wrap items-start p-2 w-full h-auto" id="card"></section>
     
     <!-- footer -->
-    <section class="p-3 flex flex-col w-full h-auto bg-sky-700 mt-5">
+    <section class="p-3 flex flex-col w-full h-auto bg-sky-700 mt-20">
       <section class="flex p-1 mt-4 w-full h-auto flex-col">
         <h3 class="text-white font-bold text-lg">
           TENTANG KAMI
@@ -187,7 +187,7 @@
           Call/Whatsapp: 083-151-154-260
         </span>
       </section>
-      <section class="flex justify-center items-center text-center mt-20 w-full h-auto">
+      <section class="flex justify-center items-center text-center mt-15 w-full h-auto">
         <span class="text-white text-xs font-light">
           @ 2023 Copyright E-commerce | Official Website
         </span>
@@ -203,8 +203,8 @@
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/splide.min.js" type="text/javascript" charset="utf-8"></script>
     <script>
-      $.getJSON('data/menu.json', function(data){
-   let m = data.data;
+      $.getJSON('http://localhost:3000/menu', function(data){
+   let m = data;
    $.each(m, function(i,data){
      $('#menu').append(`
       <a href="#" class="flex justify-center items-center w-24 h-24 flex-col shadow rounded-lg p-2">
@@ -213,8 +213,8 @@
       </a>`);
         });
 });
-      $.getJSON('data/produk.json', function(data){
-        let menu = data.produk;
+      $.getJSON('http://localhost:3000/produk', function(data){
+        let menu = data;
         $.each(menu, function(i,data){
             const harga = data.harga_produk;
             const diskon = data.diskon_produk;
@@ -236,10 +236,10 @@
             ${data.nama_produk}
           </h3>
           <section class="flex-wrap flex items-center">
-            <span class="text-lg ${(total === "hidden") ? "font-bold" : "font-light"} ${(total === "hidden") ? "text-black" : "text-red-600"} ${(total === "hidden") ? "" : "line-through"}">
+            <span class="text-lg font-light ${(total === "hidden") ? "text-black" : "text-red-600"} ${(total === "hidden") ? "" : "line-through"}">
               Rp ${data.harga_produk.toLocaleString('en-US')}-,
             </span>
-            <span class="text-lg text-black font-bold ${(total === "hidden") ? "hidden" : ""}">
+            <span class="text-lg text-black font-light ${(total === "hidden") ? "hidden" : ""}">
               Rp ${total.toLocaleString('en-US')},-
             </span>
           </section>
@@ -247,8 +247,8 @@
       </section>`);
         });
       });
-      $.getJSON('data/produk.json', function(data){
-        let menu = data.produk;
+      $.getJSON('http://localhost:3000/produk', function(data){
+        let menu = data;
         $.each(menu, function(i,data){
             const harga = data.harga_produk;
             const diskon = data.diskon_produk;
@@ -268,8 +268,8 @@
           </span>
           <h3 class="text-black font-bold text-lg">${data.nama_produk}</h3>
           <section class="flex-wrap flex w-full h-auto">
-            <span class="text-lg ${(total === "hidden") ? "font-bold" : "font-light"} ${(total === "hidden") ? "text-black" : "text-red-600"} ${(total === "hidden") ? "" : "line-through"}">Rp ${harga.toLocaleString('en-US')},-</span>
-            <span class="text-lg font-bold text-black ${(total === "hidden" ? total : "")}">
+            <span class="text-lg font-light ${(total === "hidden") ? "text-black" : "text-red-600"} ${(total === "hidden") ? "" : "line-through"}">Rp ${harga.toLocaleString('en-US')},-</span>
+            <span class="text-lg font-light text-black ${(total === "hidden" ? total : "")}">
               Rp ${total.toLocaleString('en-US')},-
             </span>
           </section>

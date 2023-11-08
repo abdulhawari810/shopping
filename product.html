@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/splide-default.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/splide.min.css" type="text/css" media="all" />
   </head>
-  <body class="py-16">
+  <body class="py-16"> 
     
     <!-- navbar top -->
     <section class="flex items-center fixed left-0 top-0 z-50 bg-sky-600 w-full h-16 p-3 justify-between">
@@ -50,7 +50,203 @@
         <span class="text-sm">Account</span>
       </a>
     </section>
-    <h1>testing</h1>
+    <!-- search -->
+    <section class="flex justify-around items-center w-full h-auto p-3 bg-white">
+      <form action="" method="get" class="w-full h-16 flex justify-between items-center relative">
+        <section class="w-30 h-auto flex items-center justify-center rounded-lg shadow-md overflow-hidden relative">
+          <input type="text" name="keyword" placeholder="Cari barang..."/>
+        <button  class="w-10 h-8 p-2 rounded bg-sky-600 items-center right-1 flex justify-center absolute text-white"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+</svg>
+</button>
+        </section>
+    <section class="w-10 h-auto p-2 flex justify-center items-center bg-sky-600 text-white rounded filter">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+  <path d="M18.75 12.75h1.5a.75.75 0 000-1.5h-1.5a.75.75 0 000 1.5zM12 6a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 0112 6zM12 18a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 0112 18zM3.75 6.75h1.5a.75.75 0 100-1.5h-1.5a.75.75 0 000 1.5zM5.25 18.75h-1.5a.75.75 0 010-1.5h1.5a.75.75 0 010 1.5zM3 12a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 013 12zM9 3.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM12.75 12a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zM9 15.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
+</svg>
+    </section>
+      </form>
+    </section>
+    <section class="hidden flex-col w-6/12 h-auto rounded-lg bg-white shadow absolute right-2 top-35 p-2 z-30 menu-filter">
+      <a href="#" class="flex items-center w-full h-10 p-1 nav-link">
+       Produk Terbaru
+      </a>
+      <a href="#" class="flex items-center w-full h-10 p-1 nav-link">
+       Sedang Diskon
+      </a>
+      <a href="#" class="flex items-center w-full h-10 p-1 nav-link">
+       Sepatu
+      </a>
+      <a href="#" class="flex items-center w-full h-10 p-1 nav-link">
+       Handphone
+      </a>
+      <a href="#" class="flex items-center w-full h-10 p-1 nav-link">
+       Headphone
+      </a>
+      <a href="#" class="flex items-center w-full h-10 p-1 nav-link">
+       Baju
+      </a>
+      <a href="#" class="flex items-center w-full h-10 p-1 nav-link">
+       Tas
+      </a>
+      <a href="#" class="flex items-center w-full h-10 p-1 nav-link">
+       Celana
+      </a>
+    </section>
+    
+    <section class="flex justify-between flex-wrap items-start p-2 w-full h-auto z-0" id="card"></section>
+    
+    
+    <!-- footer -->
+    <section class="p-3 flex flex-col w-full h-auto bg-sky-700 mt-20">
+      <section class="flex p-1 mt-4 w-full h-auto flex-col">
+        <h3 class="text-white font-bold text-lg">
+          TENTANG KAMI
+        </h3>
+        <p class="text-white text-sm font-light">
+          nisi ullamco ea consectetur sit aliqua quis dolor consequat cillum commodo mollit aliqua consectetur proident mollit esse esse proident ipsum
+        </p>
+      </section>
+      <section class="flex items-center p-1 w-full h-auto mt-5">
+        <h3 class="text-lg font-bold text-white">
+          INFORMASI
+        </h3>
+      </section>
+      <section class="w-full h-auto p-2 flex flex-col">
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Home
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Privacy Policy
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          FAQ
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Store Location
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5">
+          Terms And Conditions
+        </a>
+      </section>
+      <section class="flex items-center p-1 w-full h-auto mt-5">
+        <h3 class="text-lg font-bold text-white">
+          ORDERS
+        </h3>
+      </section>
+      <section class="w-full h-auto p-2 flex flex-col">
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          How To Order
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Shipping
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5 mb-2">
+          Returns
+        </a>
+        <a href="#" class="text-white font-light items-center flex w-full h-5">
+          Size Chart
+        </a>
+      </section>
+      <section class="flex items-center p-1 w-full h-auto mt-5">
+        <h3 class="text-lg font-bold text-white">
+          CONTACT US
+        </h3>
+      </section>
+      <section class="flex items-center p-2 w-full h-5 text-white mt-3">
+        ONLINE SERVICES
+      </section>
+      <section class="flex p-2 flex-col w-full h-auto">
+        <span class="flex items-center text-white text-sm font-light">
+          Monday - Sunday
+        </span>
+        <span class="flex items-center text-white text-sm font-light">
+          08.00 - 17.00 (Exc Public Holiday)
+        </span>
+      </section>
+      <section class="flex items-center p-2 w-full h-5 text-white mt-3">
+        CUSTOMER SERVICES
+      </section>
+      <section class="flex p-2 flex-col w-full h-auto">
+        <span class="flex items-center text-white text-sm font-light">
+          Email: e-commerce@gmail.com
+        </span>
+        <span class="flex items-center text-white text-sm font-light">
+          Whatsapp: 083-899-513-983
+        </span>
+        <span class="flex items-center text-white text-sm font-light">
+         Instagram: @ecommerce
+        </span>
+      </section>
+      <section class="flex items-center p-2 w-full h-5 text-white mt-3">
+        WHO SALE
+      </section>
+      <section class="flex p-2 flex-col w-full h-auto">
+        <span class="flex items-center text-white text-sm font-light">
+          Call/Whatsapp: 083-151-154-260
+        </span>
+      </section>
+      <section class="flex justify-center items-center text-center mt-15 w-full h-auto">
+        <span class="text-white text-xs font-light">
+          @ 2023 Copyright E-commerce | Official Website
+        </span>
+      </section>
+    </section>
+    
+    
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      $(document).ready(function(){
+      function produk(){
+      $.getJSON('http://localhost:3000/produk', function(data){
+        let menu = data;
+        $.each(menu, function(i,data){
+            const harga = data.harga_produk;
+            const diskon = data.diskon_produk;
+            let total = harga - harga * diskon / 100;
+            if(diskon === 0){
+              total = "hidden";
+            }
+          $('#card').append(`
+      <section class="flex flex-col rounded-lg shadow relative mt-5 w-36 h-auto overflow-hidden">
+        <span class="absolute w-20 h-8 p-2 bg-red-600 flex justify-center items-center text-white text-sm top-0 left-0 text-center ${(total === "hidden") ? "hidden": ""}">
+          -${diskon} OFF
+        </span>
+        <img class="object-cover w-full h-36 rounded-s-lg" src="${data.gambar_produk}" alt="" />
+        <section class="flex flex-col w-full h-auto p-3">
+          <span class="text-lg font-light text-slate-500">
+            ${data.kategori_produk}
+          </span>
+          <h3 class="text-black font-bold text-lg">${data.nama_produk}</h3>
+          <section class="flex-wrap flex w-full h-auto">
+            <span class="text-lg font-light ${(total === "hidden") ? "text-black" : "text-red-600"} ${(total === "hidden") ? "" : "line-through"}">Rp ${harga.toLocaleString('en-US')},-</span>
+            <span class="text-lg font-light text-black ${(total === "hidden" ? total : "")}">
+              Rp ${total.toLocaleString('en-US')},-
+            </span>
+          </section>
+        </section>
+      </section>`);
+        });
+      });
+      }
+      produk();
+        $('.nav-link').on('click',function(){
+          $('.nav-link').removeClass('actived');
+          $(this).addClass('actived');
+          });
+        });
+    </script>
+    <script>
+      const menu = document.querySelector('.filter');
+      const menuFilter = document.querySelector('.menu-filter');
+      
+      menu.addEventListener('click',function(){
+        menuFilter.classList.toggle('actived');
+      })
+      
+    </script>
+    <script>
+    </script>
     <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
